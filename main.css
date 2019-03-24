@@ -1,0 +1,105 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* nav {
+    background: #000000;
+    color: #f2f2f2;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 2px 15px;
+}
+nav>a {
+    font-size: 25px;
+    font-weight: 600;
+    color: #f2f2f2;
+    text-decoration: none;
+    margin: 7px 0;
+}
+nav>ul>li>a {
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    margin-right: 15px;
+    width: 200px;
+    justify-content: space-between;
+}
+li {
+    list-style-type: none;
+} */
+a:hover {
+    color: tomato;
+}
+#main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.find {
+    text-align: center;
+}
+#textArea {
+    width: 500px;
+    height: auto;
+    border: 1px solid #c4c4c4;
+    text-align: center;
+    margin: auto;
+}
+#textArea>ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#textArea>ul>li, #textArea>p{
+    margin: 5px;
+    width: 100%; 
+    text-align: center;    
+}
+#textArea2 {
+    width: 500px;
+    height: auto;
+    border: 1px solid #c4c4c4;
+    text-align: center;
+    margin: auto;
+}
+#textArea2>ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#textArea2>ul>li, #textArea>p{
+    margin: 5px;
+    width: 100%; 
+    text-align: center;    
+}
+form {
+    /* border: 1px solid; */
+    width: 40%;
+    margin: 60px auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form>input {
+    width: 80%;
+    height: 40px;
+}
+.show {
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 13px;
+    background: navy;
+    color: #f2f2f2;
+    width: 100px;
+}

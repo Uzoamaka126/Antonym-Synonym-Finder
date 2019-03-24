@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Find Synonyms</title>
+</head>
+<body>
+    <nav class="indigo lighten-4">
+        <div class="nav-wrapper container">
+            <a href="" class="brand-logo">WordFind</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Synonyms</a></li>
+                <li><a href="antonyms.html">Antonyms</a></li>
+            </ul>
+        </div>
+    </nav>  
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Synonyms</a></li>
+        <li><a href="antonyms.html">Antonyms</a></li>
+    </ul>  
+    <section id="main-section">
+        <h2 class="find">Find the Synonym of Any Word Here!</h2>
+        <form>
+            <input class="validate" type="search" name="" id="inputPart" >
+            <button type="submit" id="submitPart" class="btn waves-effect waves-light show indigo lighten-4">Show Me</button>
+        </form>
+        <div id="textArea" class="textAreaClass z-depth-3">
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>          
+    <script src="main.js"></script>
+    <script src="helperFunctions.js"></script>    
+</body>
+</html>
+<!-- const url = 'https://api.datamuse.com/words?';                     
+const queryParams = 'rel_syn=';
+const autoComplete = 'https://api.datamuse.com/sug';  -->
+
+
+
